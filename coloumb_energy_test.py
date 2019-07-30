@@ -17,5 +17,4 @@ def test_calculated_coloumb_energy():
    assert np.isclose (0.0, hartree_fock_instance.calculate_coloumb_energy('s','py',coulomb_vector))
    assert np.isclose (0.0, hartree_fock_instance.calculate_coloumb_energy('px','py',coulomb_vector))
    assert np.isclose (1.0, hartree_fock_instance.calculate_coloumb_energy('py','py',coulomb_vector))
-
-   assert np.isclose (expected_coloumb_energy, calculated_coloumb_energy)"
+   assert np.isclose (expected_coloumb_energy, calculated_coloumb_energy)
